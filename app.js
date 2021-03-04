@@ -13,6 +13,8 @@ var secondpage = require('./routes/secondpage')
 var history = require('./routes/history')
 var invite = require('./routes/invite')
 var session = require('./routes/session')
+var friendslist = require('./routes/friendslist')
+var homepage = require('./routes/homepage')
 // Example route
 // var user = require('./routes/user');
 
@@ -43,6 +45,8 @@ app.get('/secondpage', secondpage.view)
 app.get('/history', history.view)
 app.get('/session', session.view)
 app.get('/invite', invite.view)
+app.get('/friendslist', friendslist.view)
+app.get('/homepage', homepage.view)
 // Example route
 // app.get('/users', user.list);
 
