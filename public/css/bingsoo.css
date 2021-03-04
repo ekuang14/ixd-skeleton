@@ -71,7 +71,9 @@ img{
 /*Start a Session Section */
 .info {
 	filter: grayscale(100%);
+
 }
+
 
 
 
@@ -208,4 +210,30 @@ h3{
 /* Both Buttons */
 .info {
 	text-align: center;
+}
+
+.h1, h1{
+	text-align: center;
+	padding: 20px;
+	background-color: lightgray;
+	transition: ease-in-out 350ms;
+}
+
+
+.historyP, h3{
+	text-align: left;
+	padding: 30px;
+}
+.fa-user-circle{
+	font-size: 4em;
+	padding: 10px;
+}
+.hisBody{
+	display: flex;
+	justify-content: center;
+}
+.iconsHis, .fas .far {
+	font-size: 1.75em;
+	padding: 50px;
+	font-weight: 10;
 }
